@@ -46,3 +46,10 @@ button:hover {
     margin-top: 10px;
     color: red;
 }
+
+#admin-section, #dad-section {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
