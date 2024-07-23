@@ -16,6 +16,11 @@ img.centered-image {
     width: 200px;  /* Set the desired width */
     height: auto;  /* Maintain aspect ratio */
     margin-bottom: 20px;  /* Adjust spacing between image and button */
+    transition: outline 0.3s ease;  /* Smooth transition for the outline */
+}
+
+img.centered-image:hover {
+    outline: 5px solid white;  /* White outline on hover */
 }
 
 button {
