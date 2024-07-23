@@ -5,10 +5,17 @@ html, body {
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 25%, rgba(31,30,87,1) 52%, rgba(28,76,85,1) 76%, rgba(17,80,93,1) 94%);
+}
+
+img.centered-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Adjust this value to add spacing between the image and the button */
 }
 
 button {
