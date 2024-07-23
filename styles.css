@@ -3,7 +3,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #1a1a1a;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 25%, rgba(16,12,191,1) 52%, rgba(0,212,255,1) 76%, rgba(183,243,255,1) 94%); 
     margin: 0;
 }
 
