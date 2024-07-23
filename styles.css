@@ -16,11 +16,14 @@ img.centered-image {
     width: 300px;  /* Set the desired width */
     height: auto;  /* Maintain aspect ratio */
     margin-bottom: 20px;  /* Adjust spacing between image and button */
-    transition: outline 0.3s ease;  /* Smooth transition for the outline */
+    transition: outline 0.3s ease-in-out, outline-offset 0.3s ease-in-out;  /* Smooth transition for the outline */
+    outline: 0 solid white;  /* Initial outline */
+    outline-offset: 0px;  /* Initial outline offset */
 }
 
 img.centered-image:hover {
     outline: 5px solid white;  /* White outline on hover */
+    outline-offset: 5px;  /* Outline offset on hover */
 }
 
 button {
