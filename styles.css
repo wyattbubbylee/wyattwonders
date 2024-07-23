@@ -13,7 +13,7 @@ body {
 }
 
 img.centered-image {
-    width: 100px;  /* Set the desired width */
+    width: 200px;  /* Set the desired width */
     height: auto;  /* Maintain aspect ratio */
     margin-bottom: 20px;  /* Adjust spacing between image and button */
 }
