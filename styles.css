@@ -13,9 +13,9 @@ body {
 }
 
 img.centered-image {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px; /* Adjust this value to add spacing between the image and the button */
+    width: 100px;  /* Set the desired width */
+    height: auto;  /* Maintain aspect ratio */
+    margin-bottom: 20px;  /* Adjust spacing between image and button */
 }
 
 button {
