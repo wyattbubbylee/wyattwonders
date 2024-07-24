@@ -46,3 +46,8 @@ button:hover {
     background: linear-gradient(to right, #003b5c, #002f4b);
 }
 
+.cart {
+    text-align: center;
+    margin-top: 20px;
+}
+
