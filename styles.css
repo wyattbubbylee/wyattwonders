@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     margin: 0;
+    color: white;  /* Make all text in the body white */
 }
 
 body {
@@ -10,6 +11,10 @@ body {
     align-items: center;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 25%, rgba(31,30,87,1) 52%, rgba(28,76,85,1) 76%, rgba(17,80,93,1) 94%);
+}
+
+h1 {
+    color: white;  /* Ensure h1 text is white */
 }
 
 img.centered-image {
@@ -40,3 +45,4 @@ button {
 button:hover {
     background: linear-gradient(to right, #003b5c, #002f4b);
 }
+
