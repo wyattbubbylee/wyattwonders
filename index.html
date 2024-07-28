@@ -10,6 +10,7 @@
     <header>
         <h1>Game Asset Shop</h1>
         <input type="text" id="search-bar" placeholder="Search assets...">
+        <div id="cart-icon" onclick="toggleCart()">🛒 (<span id="cart-count">0</span>)</div>
     </header>
     <aside>
         <h2>Filters</h2>
@@ -26,6 +27,18 @@
     <main id="product-list">
         <!-- Product cards will be inserted here -->
     </main>
+
+    <!-- Cart Modal -->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="toggleCart()">&times;</span>
+            <h2>Your Cart</h2>
+            <div id="cart-items"></div>
+            <div id="cart-total"></div>
+            <button onclick="checkout()">Checkout</button>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
