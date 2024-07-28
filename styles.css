@@ -47,17 +47,23 @@ aside {
     background: rgba(255, 255, 255, 0.9); /* Semi-transparent background for readability */
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s; /* Add transition for smooth effect */
 }
 
 .product-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 1); /* Fully opaque on hover */
 }
 
 .product-card img {
     max-width: 100%;
     border-radius: 5px;
+    transition: transform 0.3s; /* Smooth image scale effect */
+}
+
+.product-card img:hover {
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
 }
 
 .product-card h3 {
@@ -76,3 +82,18 @@ aside {
     margin: 10px 0;
 }
 
+button, .product-card a {
+    background: #e67e22;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s; /* Smooth background and transform effects */
+}
+
+button:hover, .product-card a:hover {
+    background: #d35400;
+    transform: scale(1.05); /* Slightly enlarge the button or link on hover */
+}
