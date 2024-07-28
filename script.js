@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <img src="${product.image}" alt="${product.name}">
                 <h3>${product.name}</h3>
                 <p class="price">$${product.price}</p>
+                <a href="#" class="btn">Buy Now</a>
             `;
             productList.appendChild(productCard);
         });
